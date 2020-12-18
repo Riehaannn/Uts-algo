@@ -1,0 +1,40 @@
+#Program Bank Sampah Sederhana
+#Atalaric Raihan
+
+
+def harga():
+berat sampah =int(input("Masukan berat sampah anda:"))
+menu = 1
+while menu !=0:
+print()
+print("pilih jenis sampah")
+print("1. Sampah botol")
+print("2. Sampah besi")
+print("3. Sampah kertas")
+menu = int(input("Masukan jenis sampah :"))
+if menu ==1:
+harga sampah = berat sampah * 1000
+print()
+print("Harga sampah:",harga sampah)
+print()
+elif menu ==2:
+harga sampah = berat sampah * 5000
+print()
+elif menu ==3:
+harga sampah = berat sampah * 3000
+print()
+print("Harga sampah:"harga sampah)
+print()
+pilihan = 1
+while pilihan !=0:
+print()
+print("---Menu bank sampah---")
+print("1.Admin")
+print("2.Nasabah")
+print("0.exit")
+print()
+pilihan = int(input("Masukan Nomor menu: "))
+if pilihan ==1:
+print("Harga sampah botol : 1000")
+print("Harga sampah besi : 5000")
+print
