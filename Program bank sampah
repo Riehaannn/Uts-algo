@@ -37,4 +37,5 @@ pilihan = int(input("Masukan Nomor menu: "))
 if pilihan ==1:
 print("Harga sampah botol : 1000")
 print("Harga sampah besi : 5000")
-print
+print("Harga Sampah kertas :3000")
+elif pilihan ==2:
